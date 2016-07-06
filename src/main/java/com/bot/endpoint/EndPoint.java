@@ -31,7 +31,8 @@ import com.restfb.types.webhook.messaging.MessagingItem;
 @WebServlet(name = "/webhook", urlPatterns = { "/webhook" })
 public class EndPoint extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-
+	
+	//update below FACEBOOK_ACCESS_TOKEN with access token got from facebook.
 	private static final String accessToken = "FACEBOOK_ACCESS_TOKEN";
 
 	/**
